@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><?xml-model href="QLSP1.xsd"?><QLSP>
+    <DSSP>
+        <sanpham maloai="ML01" masp="SP01">
+            <tensp>aaaa</tensp>
+            <gia>100000</gia>
+
+            <nuocsx>VN</nuocsx>
+        </sanpham>
+        <sanpham maloai="ML01" masp="SP01">
+            <tensp>aaaa</tensp>
+            <gia>100000</gia>
+
+            <nuocsx>TL</nuocsx>
+        </sanpham>
+        <sanpham maloai="ML01" masp="SP01">
+            <tensp>aaaa</tensp>
+            <gia>100000</gia>
+
+            <nuocsx>VL</nuocsx>
+        </sanpham>
+        <sanpham maloai="ML01" masp="SP01">
+            <tensp>aaaa</tensp>
+            <gia>100000</gia>
+
+            <nuocsx>S</nuocsx>
+        </sanpham>
+
+        <sanpham maloai="" masp="SP05">
+            <tensp>iPhone 12</tensp>
+            <gia>2.9E7</gia>
+            <nuocsx>Hua giang</nuocsx>
+        </sanpham>
+        <sanpham maloai="" masp="SP06">
+            <tensp>iPhone 7</tensp>
+            <gia>1.7E7</gia>
+            <nuocsx>usa</nuocsx>
+        </sanpham>
+        <sanpham maloai="" masp="SP07">
+            <tensp>iPhone 6</tensp>
+            <gia>166666.0</gia>
+            <nuocsx>hau giang</nuocsx>
+        </sanpham>
+
+        <sanpham maloai="iphone" masp="SP09">
+            <tensp>iphone 3</tensp>
+            <gia>88888.0</gia>
+            <nuocsx>ling an</nuocsx>
+        </sanpham>
+    <sanpham maloai="laptop" masp="SP20"><tensp>mac</tensp><gia>999.0</gia><nuocsx>can tho</nuocsx></sanpham></DSSP>
+    <DSLoaiSP>
+
+        <loaisp maloai="ML01">
+            <tenloai>Tap 1100 trang</tenloai>
+        </loaisp>
+        <loaisp maloai="ML01">
+            <tenloai>Tap 1020 trang</tenloai>
+        </loaisp>
+        <loaisp maloai="ML01">
+            <tenloai>Tap 1300 trang</tenloai>
+        </loaisp>
+        <loaisp maloai="laptop">
+            <tenloai>LAPTop sinh vien</tenloai>
+        </loaisp>
+    </DSLoaiSP>
+</QLSP>

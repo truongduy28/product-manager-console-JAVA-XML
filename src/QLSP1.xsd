@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="QLSP">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="DSSP">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="sanpham" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="tensp" type="xs:string" />
+                                        <xs:element name="gia" type="xs:string" />
+                                        <xs:element name="maloai" />
+                                        <xs:element name="nuocsx" />
+                                    </xs:sequence>
+                                    <xs:attribute name="masp" use="required" />
+                                    <xs:attribute name="maloai" use="required" />
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="DSLoaiSP">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="loaisp" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="tenloai" type="xs:string" />
+                                    </xs:sequence>
+                                    <xs:attribute name="maLoai" use="required" />
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
